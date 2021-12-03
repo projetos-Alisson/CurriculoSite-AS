@@ -1,0 +1,50 @@
+
+.fundo_nav{
+
+    background-color: #1D1926;
+    
+}
+
+main{
+  height: 50vh;
+  background-image: url(../img/carrosel/fundo.png) no-repeat center center;
+  background-size: cover;
+  
+}
+
+.cor_nav{
+
+    color: brown;
+
+}
+.nav-item{
+  letter-spacing: 3px;
+  margin-left: 32px;  
+  font-family: 'Source Sans Pro', sans-serif
+  
+}
+
+
+.texto{
+
+    padding-top: 2%;
+
+}
+
+
+.h1{
+
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    font-size: 3.5em;
+
+}
+
+.ajustes{
+ 
+ text-decoration: underline;
+ margin-top: 1%;
+ margin-bottom: 1%;
+ font-size: 5em;
+}

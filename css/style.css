@@ -17,6 +17,76 @@
   font-family: 'Source Sans Pro', sans-serif
   
 }
+#sobre p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: justify;
+  text
+
+}
+
+
+/*HOBBIES*/
+#hobby {
+  padding-top: 0;
+  padding-left: all;
+  text-align: center;
+  padding-top: 10%;
+
+}
+
+.hobb {
+  margin-bottom: 25px;
+ 
+  
+}
+
+.hobb {
+  text-align: center;
+  color: #000000;
+  font-size: 16px;
+ 
+}
+
+
+#hobby .img-responsive {
+  width: 75%;
+  text-align: center;
+  
+}
+
+.hob-info h3 {
+  margin-top: 35px;
+
+}
+
+.hob-info h4 {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: rgb(158, 156, 156);
+}
+
+.hob-info p{
+text-align: justify;
+
+
+}
+
+
+
+
+/*Sobre Mim*/
+
+
+#sobre p {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
 
 
 #sobre {
@@ -26,13 +96,27 @@
   text-align: center;
   background-color: #BF705E;
   color: #fff;
-  padding-top: 0% ;
+  padding-top: 20px ;
+  height: 800px;
 
 }
+
+.foto{
+
+  align-items: ;
+
+
+
+
+}
+
+
 
 .texto{
 
     padding-top: 2%;
+    text-align: justify;
+    
 
 }
 

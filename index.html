@@ -12,111 +12,254 @@
     <link rel="stylesheet" href="css/bootstrap-utilities.css">
     <link rel="stylesheet" href="css/bootstrap-grid.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
     <title>Portifólio- Alisson Soares</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light fundo_nav">
-     
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+        <nav class="navbar navbar-expand-lg navbar-light fundo_nav">
+        
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
 
-                <img class="rounded-circle ml-3" src="img/avatar.png" alt="" width=50% >
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent" >
-                <ul class="navbar-nav  mb-2 mb-lg-0" >
-                  <li class="nav-item">
-                    <ul class="ajustes"></ul>
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <img class="rounded-circle ml-3" src="img/avatar.png" alt="" width=50% >
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent" >
+                    <ul class="navbar-nav  mb-2 mb-lg-0" >
+                      <li class="nav-item">
+                        <ul class="ajustes"></ul>
+                        <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Sobre">Sobre</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Hobbes">Hobbes</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Portifólio
+                        </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Hobbes</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                     Portifólio
-                    </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
-              </li>
-            </ul>
+              </div>
+            </div>
+        </nav>
+        <header class="imagem">
+          <img src="img/fundo1.png" class="img-fluid" alt="Paisagem" width="100%">
+        </header>
+
+    <div class="container">
+      <section class="texto" id="hobby">
+        <div class="row">
+          <div class="col-md-4">
+                  <div class="hobb wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+                    <div class="hoimg">
+                      <img class="img-responsive" src="img/eu/alisson.png" alt="">
+                    </div>
+
+                  </div>
+                </div>
+
+              <div class="col-md-8" >
+               <div class="hobb wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+                 <div classe="hob-info">   
+                <h1 class="h1">Sobre mim</H1>
+                <p>Olá, meu nome é Alisson Soares Pais, nasci em 2005, e eu sou um estudante 
+                  da ETEC Maria Cristina Medeiros, onde curso o ensino médio, além de fazer 
+                  meu curso técnico de informática para Internet. Sempre tive vontade de 
+                  conhecer mais profundamente o universo da informática, para assim aprender como a área
+                  de informação digital pode contribuir para a melhora da nossa sociedade. Pode-se dizer 
+                  que uma das minhas motivações pra escolha desse curso, foi a curiosidade, onde pretendo expô-la ao longo desse site.</p>
+                  
+                <p>Tenho interesse em todo conhecimento útil e bom, então quando decido estudar algum campo de estudo, procuro me aprofundar de 
+                forma que eu consiga compreender a parte teórica, para conseguir ter autonomia para me desenvolver. </p>
+             </div>      
+            </div>
           </div>
-        </div>
-    </nav>
+          </div>
+      </section>
+
 
     <!--Um pouco sobre mim-->
-
-    <div class="imagem">  
-        <img src="img/fundo1.png" class="img-fluid" alt="Paisagem">
-    </div>  
-    
-        <section class="texto" id="sobre">
-          <H1 class="h1">Sobre Mim</H1>
-          <div class="foto"></div>
-          <img src="img/eu/alisson1.png" class="img-fluid rounded float-left" alt="Minha foto">
-          <p>Olá, meu nome é Alisson Soares Pais, nasci em 2005, e eu sou um estudante 
-             da ETEC Maria Cristina Medeiros, onde curso o ensino médio, além de fazer 
-             meu curso técnico de informática para Internet. Sempre tive vontade de 
-             conhecer mais profundamente o universo da informática, para assim aprender como a área
-             de informação digital pode contribuir para a melhora da nossa sociedade. Pode-se dizer 
-             que uma das minhas motivações pra escolha desse curso, foi a curiosidade, onde pretendo expô-la ao longo desse site.</p>
-        </section>
-
         <div class="container">
         <section class="texto" id="hobby">
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-4">
                     <div class="hobb wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
                       <div class="hoimg">
-                        <img class="img-responsive" src="img/danca.png" alt="" >
+                        <img class="img-responsive" src="img/icones/violão.png" alt="">
+                      </div>
+                      <div class="hob-info">
+                        <h3>Violão</h3>
+                        <h4>Me acalma</h4>
+                        <p>Não faz muito tempo que treino violão. As vezes treino na igreja ou em casa quando tenho tempo; tocar violão ou contrabaixo (que é outro instrumento que eu curto 
+                          demais), serve como uma terapia, pra esquecer um pouco dos problemas do dia-a-dia. </p>   
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="hobb wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+                      <div class="hoimg">
+                        <img class="img-responsive" src="img/icones/desenho.png" alt="">
                       </div>
                       <div class="hob-info">
                         <h3>Desenho</h3>
-                        <h4>Desenhar</h4>
-                        <p> Um dos meus hobbies favoritos é a dança. Eu não sou uma dançarina registrada e 
-                          profissional, mas eu adoro uma dança espontânea.</p>
-                        <p>Quando mais nova eu fazia ballet e jazz e amava as aulas, mas tive que parar por um longo tempo. Uns anos se passou e voltei a dança, mas em outra categoria: Zumba. Era algo totalmente diferente, porém novo, então foi ótimo ter aprendido. Hoje em dia faço dança por minha conta, vendo vídeos, coreografias etc.</p>
+                        <h4>Estudo desenho e faço fanarts</h4>
+                        <p>Desde pequeno eu desenho personagens de filmes e animações que eu mais gostava de assistir, mas atualmente procuro estudar desenho para compreender os fundamentos
+                          necessários para que eu consiga desenhar tudo o que vier à minha mente, não ficando preso apenas a fazer releitura de desenhos já feitos.</p>
                         
                       </div>
                     </div>
                   </div>
-          <H1 class="h1">Titanfall</H1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat perspiciatis possimus natus, nobis aut minima, dolore fuga enim similique modi voluptate quaerat necessitatibus eius dolor sequi, fugiat distinctio eligendi omnis. </p>
-        </section>
+                  <div class="col-md-4">
+                    <div class="hobb wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+                      <div class="hoimg">
+                        <img class="img-responsive" src="img/icones/violão.png" alt="" >
+                      </div>
+                      <div class="hob-info">
+                        <h3>Calistenia</h3>
+                        <h4>Treino em casa </h4>
+                        <p> Calistenia é uma modalidade de exercícios físicos, onde se usa o peso corporal na execusão dos exercícios.</p>
+                        <p>Não tenho barra fixa ou outros apoios muito usados na calistenia para executar exercícios, mas me adapto de acordo com as condições do ambiente. Geralmente o que mais tre
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="hobb wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+                      <div class="hoimg">
+                        <img class="img-responsive" src="img/icones/livro.png" alt="">
+                      </div>
+                      <div class="hob-info">
+                        <h3>Ler</h3>
+                        <h4>Conhecimento</h4>
+                        <p>Recentemente estou construindo o hábito de ler todos dias, pois ajuda a desenvolver criatividade e obviamente agrega conhecimento. Me interesso
+                          geralmente por contos de detetive e mistério </p>   
+                      </div>
+                    </div>
+                  </div>
 
+                  <div class="col-md-4">
+                    <div class="hobb wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+                      <div class="hoimg">
+                        <img class="img-responsive" src="img/icones/logica.png" alt="">
+                      </div>
+                      <div class="hob-info">
+                        <h3>Racíocinio lógico</h3>
+                        <h4>Lógica de programação, enigma, dedução.</h4>
+                        <p>Trabalhar o racíocinio lógico é fundamental para o desenvolvimento do nosso cérebro. Enigmas sempre me despertaram interesse, porque sempre há uma
+                          verdade por trás, que se chega através da lógica. Como estudo informática, a lógica de programação é fundamental na construção de algoritmos; geralmente
+                        trabalho com o VisualG, onde é usado muito nas aulas do meu curso.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="hobb wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+                      <div class="hoimg">
+                        <img class="img-responsive" src="img/icones/flexao.png" alt="" >
+                      </div>
+                      <div class="hob-info">
+                        <h3>Calistenia</h3>
+                        <h4>Treino em casa </h4>
+                        <p> Calistenia é uma modalidade de exercícios físicos, onde se usa o peso corporal na execusão dos exercícios.</p>
+                        <p>Não tenho barra fixa ou outros apoios muito usados na calistenia para executar exercícios, mas me adapto de acordo com as condições do ambiente. Geralmente o que mais tre
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                <section>
+                 <div class="cor-fundo my-5">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm-12 text-dark tex-center my-3">
+                        <h1 class="h1">Portifólio</h1>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <div class="card">
+                          <a href="https://quartetoetec.github.io/livrodigital/"><img class="card-img-top" src="img/Portifólio/life tales.png" alt="Conheça nosso site do projeto dos contos"></a>
+                          <div class="card-body">
+                            <h5 class="card-title">Life Tales</h5>
+                            <p class="card-text">Este site, é um projeto interdisciplinar, onde a ideia é desenvolver a escrita
+                               por meio da narração, além de aplicar os conceitos aprendidos de HTML e CSS, então foi assim que foram 
+                               criados os contos literários. </p>
+                            <a href="#" class="btn btn-outline-secondary">Go somewhere</a> 
+                          </div>
+                        </div>
+                      </div>
+                        <div class="col-sm-4">
+                          <div class="card">
+                            <a href="https://projetos-alisson.github.io/site-IW/"><img class="card-img-top" src="img/Portifólio/final fight.jpg" alt="Site sobre o jogo Final Fight"></a>
+                            <div class="card-body">
+                              <h5 class="card-title">Final Fight </h5>
+                              <p class="card-text">Final Fight é uma série de videogames do gênero beat'em up 
+                                da Capcom, que começou com o lançamento de Final Fight em 1989. Esse site foi feito nas aulas introdutórias
+                                de HTML e CSS do meu curso (fora do ar temporariamente).</p>
+                              <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                            </div>
+                          </div>
+                        </div>
+                          <div class="col-sm-4">
+                            <div class="card">
+                              <a href="https://drive.google.com/file/d/1LcDlYDd5d13Oh4muw0DZN0fBKu2aR9vR/view?usp=sharing"><img class="card-img-top" src="img/Portifólio/propaganda.png" alt="Video apresentando o nosso projeto interdisciplinar"></a>
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </section>
+    
+                <section>
+                  <footer class="cor text-center text-white">
+                    <!-- Grid container -->
+                    <div class="container p-4 pb-0">
+                      <!-- Section: Social media -->
+                      <section class="mb-4">
+                        <!-- Whatssap-->
+                        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                        href=""><img src="img/social/whatsapp.png"><i class="fab fa-whatssap"></i></a>
+                  
+                        <!-- Gmail-->
+                        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                          ><img src="img/social/gmail.png"><i class="fab fa-linkedin-in"></i
+                        ></a>
+                  
+                        <!-- Github -->
+                        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                          ><img src="img/social/github.png"></i
+                        ></a>
+                      </section>
+                      <!-- Section: Social media -->
+                    </div>
+                    <!-- Grid container -->
+                  
+                    <!-- Copyright -->
+                    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                      © 2020 Copyright:
+                      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                    </div>
+                    <!-- Copyright -->
+                  </footer>
+                </section>
 
-
-
-
-
-        <section class="texto" id="vilões">
-          <H1 class="h1">Titanfall</H1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat perspiciatis possimus natus, nobis aut minima, dolore fuga enim similique modi voluptate quaerat necessitatibus eius dolor sequi, fugiat distinctio eligendi omnis. </p>
-        </section>
-        <section class="texto" id="gameplay">
-          <H1 class="h1">Titanfall</H1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat perspiciatis possimus natus, nobis aut minima, dolore fuga enim similique modi voluptate quaerat necessitatibus eius dolor sequi, fugiat distinctio eligendi omnis.</p>
-        </section>
-        <section class="texto" id="review">
-          <H1 class="h1">Titanfall</H1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat perspiciatis possimus natus, nobis aut minima, dolore fuga enim similique modi voluptate quaerat necessitatibus eius dolor sequi, fugiat distinctio eligendi omnis.</p>
-        </section>
-    </div>
-
-   
-   
-   
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

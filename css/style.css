@@ -1,3 +1,5 @@
+/*NAV-BAR*/
+
 
 .fundo_nav{
 
@@ -26,9 +28,15 @@
   margin-left: 200px;
   margin-right: 200px;
   text-align: justify;
-  text
 
 }
+
+p{
+  font-family: 'Roboto', sans-serif;
+
+
+  }
+
 
 
 /*HOBBIES*/
@@ -94,19 +102,11 @@ text-align: justify;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: #BF705E;
-  color: #fff;
+  background-color: #fff;
+  color: black;
   padding-top: 20px ;
-  height: 800px;
-
-}
-
-.foto{
-
-  align-items: ;
-
-
-
+  height: 1300px;
+  margin-top: 50px;
 
 }
 
@@ -116,7 +116,6 @@ text-align: justify;
 
     padding-top: 2%;
     text-align: justify;
-    
 
 }
 
@@ -129,7 +128,7 @@ text-align: justify;
     padding-top: 2%;
     padding-bottom: 3%;
     font-size: 3.5em;
-
+    
 }
 
 .ajustes{
@@ -139,3 +138,27 @@ text-align: justify;
  margin-bottom: 1%;
  font-size: 5em;
 }
+
+.cor-fundo{
+  
+background-color: #978DA6;
+padding-top: 0px;
+
+}
+
+    
+/*FOOTER*/
+
+.cor{
+  background-color: #1D1926;
+
+
+
+}
+
+
+
+
+
+
+
